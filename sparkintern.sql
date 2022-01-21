@@ -39,6 +39,22 @@ CREATE TABLE `transaction` (
 -- Dumping data for table `transaction`
 --
 
+-----------------------------------------------------------
+
+--
+-- Table structure for table `feedback`
+--
+CREATE TABLE `feedback` (
+  `id` int(255) NOT NULL PRIMARY KEY,
+  `user` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `mobile` varchar(255) NOT NULL,
+  `message` text NOT NULL 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `feedback`
+--
 -- --------------------------------------------------------
 
 
